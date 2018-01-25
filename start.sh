@@ -16,4 +16,4 @@ fi
 # run pub/sub sample app using certificates downloaded in package
 printf "\nStarting the system to monitor AWS Changes and Local Hardware Devices...\n"
 #node node_modules/aws-iot-device-sdk/examples/device-example.js --host-name=a1uimyiwlxo1p.iot.us-east-2.amazonaws.com --private-key=workshop-home-alarm.private.key --client-certificate=workshop-home-alarm.cert.pem --ca-certificate=root-CA.crt
-node watcher.js --host-name=a1uimyiwlxo1p.iot.us-east-2.amazonaws.com --private-key=workshop-home-alarm.private.key --client-certificate=workshop-home-alarm.cert.pem --ca-certificate=root-CA.crt
+node watcher.js --host-name=PUT_YOUR_AWS_HOSTNASME_HERE --private-key=workshop-home-alarm.private.key --client-certificate=workshop-home-alarm.cert.pem --ca-certificate=root-CA.crt
