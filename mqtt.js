@@ -2,7 +2,7 @@ const mqtt = require('mqtt');
 const { deviceMap } = require('./deviceMap');
 
 const config = Object.assign({
-    mqttUrl: 'mqtt://192.168.1.210:1883',
+    mqttUrl: 'PUT_YOUR_MQTT_SERVER_ADDRESS',
     boardsChannel: 'wrks_boards',
     sensorsChannel: 'wrks_sensors',
     customSensorsChannelPrefix: 'wrks_sensors/',
