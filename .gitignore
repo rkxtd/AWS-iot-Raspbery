@@ -1,5 +1,6 @@
-RaspberyPi.cert.pem
-RaspberyPi.public.key
-RaspberyPi.private.key
-root-CA.crt
+.DS_Store
+.idea
 node_modules
+*.crt
+*.pem
+*.key
