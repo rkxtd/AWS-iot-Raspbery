@@ -4,8 +4,8 @@
   "description": "",
   "main": "mqtt.js",
   "dependencies": {
-    "aws-iot-device-sdk": "^2.1.0",
-    "mqtt": "^2.14.0"
+    "aws-iot-device-sdk": "^2.2.0",
+    "mqtt": "^2.15.1"
   },
   "devDependencies": {},
   "scripts": {
